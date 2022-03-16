@@ -1,0 +1,26 @@
+.container-wwd {
+  /* background-color: aquamarine; */
+  /* border: 1px solid; */
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-wwd > article {
+  padding: 25px;
+  /* background-color: bisque; */
+  /* border: 1px solid; */
+  display: grid;
+  grid-template-columns: 225px 1fr;
+  max-width: 40rem;
+  column-gap: 70px;
+}
+
+.icon {
+  /* border: 1px solid; */
+  font-size: 710%;
+  padding: 20px 60px;
+  color: #9d9d9c;
+  background-color: #bcd546;
+}
