@@ -1,5 +1,5 @@
 nav {
-  background: #fff;
+  background: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -14,21 +14,58 @@ ul {
 a {
   text-decoration: none;
 }
+/* ----------------------------------- */
 
-.links-container {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s linear;
+.search-div {
+  justify-content: end;
 }
 
-.links a {
-  color: grey;
-  font-size: 15px;
-  text-transform: capitalize;
-  letter-spacing: var(--spacing);
-  display: block;
-  padding: 0.5rem 1rem;
-  transition: var(--transition);
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-btn {
+  font-size: x-large;
+  border: none;
+  background-color: #fff;
+}
+
+#link-s {
+  font-size: 25px;
+  padding: 14px 25px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links-s {
+  display: flex;
+}
+
+.links-container {
+  display: none;
+}
+
+.search-div {
+  display: flex;
+}
+
+.search-div button {
+  border: none;
+  background-color: #fff;
+}
+
+.gradient-div {
+  height: 8px;
+  background-image: linear-gradient(to right, green, blue);
 }
 
 @media screen and (min-width: 768px) {
@@ -47,7 +84,12 @@ a {
     display: none;
   }
 
+  .header-list {
+    display: none;
+  }
+
   .links-container {
+    display: block;
     height: auto !important;
   }
   .links {
@@ -69,10 +111,5 @@ a {
 
   .search-btn {
     font-size: large;
-  }
-
-  .gradient-div {
-    height: 8px;
-    background-image: linear-gradient(to right, green, blue);
   }
 }

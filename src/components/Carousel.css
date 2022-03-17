@@ -32,3 +32,6 @@
   font-size: 40px;
   color: #9d9d9c;
 }
+
+@media screen and (max-width: 480px) {
+}
