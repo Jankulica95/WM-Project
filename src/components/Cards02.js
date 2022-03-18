@@ -1,7 +1,7 @@
 import { BsFillCalculatorFill } from "react-icons/bs";
 import { AiFillCloud, AiFillHeart } from "react-icons/ai";
 import { FiClock } from "react-icons/fi";
-import "./Cards02.css";
+import "./css/Cards02.css";
 
 const Cards02 = () => {
   return (

@@ -1,6 +1,6 @@
 import { links, social } from "./data";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import "./Footer.css";
+import "./css/Footer.css";
 
 const Footer = () => {
   return (

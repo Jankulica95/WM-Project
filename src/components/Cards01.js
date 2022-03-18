@@ -1,6 +1,6 @@
 import { FaGraduationCap } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
-import "./Cards01.css";
+import "../components/css/Cards01.css";
 
 const Cards01 = () => {
   return (

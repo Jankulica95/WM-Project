@@ -7,7 +7,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FiAlignJustify } from "react-icons/fi";
 
-import "./Navbar.css";
+import "./css/Navbar.css";
 
 const Navbar = () => {
   return (
